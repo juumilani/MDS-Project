@@ -13,6 +13,8 @@ CREATE DATABASE escola_db;
 -- -- ddl-end --
 -- 
 
+\c escola_db;
+
 -- object: public.Aluno | type: TABLE --
 DROP TABLE IF EXISTS public.Aluno CASCADE;
 CREATE TABLE public.Aluno(
